@@ -2,20 +2,22 @@
 
 exports[`Header component Capture component snapshot 1`] = `
 <header
+  className="header"
   data-test="header-component"
 >
   <div
-    className="wrapper"
+    className="header__logo"
   >
-    <div
-      className="logo"
-    >
-      <img
-        alt="logo"
-        data-test="logo-img"
-        src="logo.png"
-      />
-    </div>
+    <img
+      alt="logo"
+      data-test="logo-img"
+      src="logo.png"
+    />
+  </div>
+  <div
+    className="header__title"
+  >
+    Behive Versioning Dashboard
   </div>
 </header>
 `;
