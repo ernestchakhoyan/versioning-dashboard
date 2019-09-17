@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Capture component snapshot 1`] = `
+<header
+  data-test="header-component"
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="logo"
+    >
+      <img
+        alt="logo"
+        data-test="logo-img"
+        src="logo.png"
+      />
+    </div>
+  </div>
+</header>
+`;
