@@ -1,0 +1,11 @@
+@import "./constants/styles/vars";
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: $grey;
+  background-color: $white;
+  margin: 0;
+  padding: 0;
+}
