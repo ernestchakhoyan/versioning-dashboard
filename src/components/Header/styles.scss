@@ -8,14 +8,17 @@
   background-color: $main-theme-color;
 
   &__logo{
-    width: 100px;
-    height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 100px;
+    height: 100%;
+
     margin-left: 50px;
 
     img{
-      height: inherit;
+      height: 50px;
       width: auto;
       margin: 0 auto;
     }
