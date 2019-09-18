@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component > Capture component snapshot 1`] = `
+<footer
+  className="footer"
+  data-test="footer-component"
+>
+  <div
+    className="footer__logo"
+  >
+    <img
+      alt="logo"
+      data-test="footer-logo-img"
+      src="logo_portrait.png"
+    />
+  </div>
+  <div
+    className="footer__title"
+  >
+    © 2019 Behive, Inc. All Rights Reserved
+  </div>
+</footer>
+`;
