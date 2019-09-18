@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./components/header"
 import Content from "./components/content"
+import Footer from "./components/footer"
 import "./App.scss";
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
 			<div className="app" data-test="app">
 				<Header/>
 				<Content/>
+				<Footer/>
 			</div>
 		);
 	}
